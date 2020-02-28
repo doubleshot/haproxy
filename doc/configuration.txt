@@ -5885,7 +5885,7 @@ load-server-state-from-file { global | local | none }
 
   This directive points HAProxy to a file where server state from previous
   running process has been saved. That way, when starting up, before handling
-  traffic, the new process can apply old states to servers exactly has if no
+  traffic, the new process can apply old states to servers exactly as if no
   reload occurred. The purpose of the "load-server-state-from-file" directive is
   to tell haproxy which file to use. For now, only 2 arguments to either prevent
   loading state or load states from a file containing all backends and servers.
